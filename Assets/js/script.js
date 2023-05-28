@@ -27,7 +27,7 @@ function main() {
     let suma = sumarNotas(notas);
     let promedio = calcularPromedio(suma, notas);
 
-    
+    alert("El promedio de los valores [6, 8, 9, 2, 5, 10] es: " + promedio);
 }
 
 // Ejecutar la función principal
