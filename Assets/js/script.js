@@ -13,10 +13,21 @@ function sumarNotas(notas) {
     return suma;
 }
 
+// función para el cálculo del promedio
+function calcularPromedio(suma, notas) {
+    let promedio = 0;
+    promedio = suma / notas.length;
+    console.log("El promedio de los valores es: ", promedio);
+    return promedio;
+}
+
 // Función principal
 function main() {
     let notas = obtenerNotas();
     let suma = sumarNotas(notas);
+    let promedio = calcularPromedio(suma, notas);
+
+    
 }
 
 // Ejecutar la función principal
